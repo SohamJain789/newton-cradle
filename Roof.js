@@ -14,7 +14,7 @@ class Roof {
       rectMode(CENTER);
       translate(pos.x,pos.y);
       fill("red");
-      rect(pos.x, pos.y, this.width, this.height);
+      rect(0,0, this.width, this.height);
       pop();
     }
   };
